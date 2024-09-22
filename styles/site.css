@@ -1,0 +1,80 @@
+html{
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 2cm;
+    border-color: black;
+}
+
+body{
+    margin: 20px;
+    padding:5px;
+    background-color: #f0f1f37c;
+}
+
+h1{
+    color: black;
+    font-size: 30pt;
+    text-transform: capitalize;
+}
+
+/*Student. Avid swimmer part*/
+.readable{
+    color: rgb(54, 130, 244);
+    font-size: 12pt;
+    font-style: normal;
+    word-spacing: 2px;
+}
+
+/* contact page list*/
+.listing{
+  list-style: disc;
+}
+
+ul li{
+    color: black;
+    font-size: 12pt;
+    letter-spacing: -0.025cm;
+    list-style-type: none;
+}
+
+/*school, major, expected graduation... part*/
+ul li strong{
+    letter-spacing: 0.025cm;
+    font-size: 12pt;
+}
+
+/*Source: https://developer.mozilla.org/en-US/docs/Web/CSS/line-height */
+/*Source: https://developer.mozilla.org/en-US/docs/Web/CSS/border-left */
+menu{
+  list-style: none;
+  font-size:10pt;
+  margin: 5px;
+  padding: 10px;
+  line-height: 200%;
+  width: max-content;
+  color: black;
+  font-weight: lighter;
+  border-left: 2pt ridge rgb(54, 130, 244);
+}
+
+/* Resize images*/
+/*Source: https://developer.mozilla.org/en-US/docs/Web/CSS/line-height */
+img{
+    display: block;
+    width: 85%;
+    height: 85%;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 5px;
+  }
+
+/*My experiences list explanations bullet */
+  ol li ul li{
+    list-style:disc;
+    font-size: 12pt;
+  }
+
+/* Bold my experiences*/
+  span{
+    font-weight: bold;
+    padding: 10px;
+  }
