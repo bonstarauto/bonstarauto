@@ -101,50 +101,70 @@ img{
   .grid-container {
     grid-auto-rows: 50px;
     gap: 10px;
-    width: 70%;
-    height:70%;
+    
 }
 .grid-item {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 70%;
+  height:70%;
 }
 grid-item1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 70%;
+  height:70%;
 }
 grid-item2{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 70%;
+  height:70%;
 }
 grid-item3 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 70%;
+  height:70%;
 }
 grid-item4 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 70%;
+  height:70%;
 }
 grid-item5 {
   display: flex;
   flex-direction: row;
+  width: 70%;
+  height:70%;
   justify-content: space-between;
 }
 grid-item6{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 70%;
+  height:70%;
 }
 grid-item7 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 70%;
+  height:70%;
 }
 .grid-item img {
-    width: auto;
-    height: auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+  height:70%;
 }
