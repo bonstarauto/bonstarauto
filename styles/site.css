@@ -97,73 +97,25 @@ img{
     padding: 10px;
   }
 
-  new cars page
-  .grid-container {
-    grid-auto-rows: 10px;
-    gap: 10px;
-    
+.outer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between rows */
 }
-/*.grid-item {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 70%;
-  height:70%;
-} */
 
-div a{
-  display: block;
-  width: 25%;
-  height: 25%;
-  margin-left:auto;
-  margin-right:auto;
-  padding: 5px;
+.row {
+    display: flex;
+    justify-content: space-between; /* Distributes items evenly */
+    gap: 10px; /* Space between items */
 }
-grid-item1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px;
-}
-grid-item2{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px;
-}
-grid-item3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px;
-}
-grid-item4 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px;
-}
-grid-item5 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px;
-}
-grid-item6{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px;
-}
-grid-item7 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px;
-}
-.grid-item img {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px;
+
+.item {
+    flex: 1; /* Makes each item take equal width */
+    height: 100px; /* You can adjust the height as needed */
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centers content inside each item */
+    border: 1px solid #aaa;
+    font-size: 14px;
 }
