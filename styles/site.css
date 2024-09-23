@@ -44,7 +44,9 @@ ul li strong{
 
 .menu{
   display:flex;
+  align-content:center;
 }
+
 menu{
   list-style: none;
   font-size:10pt;
