@@ -40,15 +40,12 @@ ul li{
 ul li strong{
     letter-spacing: 0.025cm;
     font-size: 12pt;
+    text-align: center;
 }
 
 .menu{
   display: inline-flex;
   justify-content:center;
-}
-
-.homepage{
-  text-align: center;
 }
 
 .logo{
@@ -72,8 +69,7 @@ menu{
   border-right: 2pt ridge rgb(54, 130, 244);
 }
 
-/* Resize images*/
-/*Source: https://developer.mozilla.org/en-US/docs/Web/CSS/line-height */
+
 img{
     display: block;
     width: 85%;
