@@ -16,9 +16,15 @@ h1{
     text-transform: capitalize;
 }
 
-.header{
-  display: inline-flex;
+.header {
+  display: flex;
   justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+
+.header p {
+  margin: 0;
 }
 
 /*Student. Avid swimmer part*/
@@ -41,14 +47,6 @@ ul li{
     list-style-type: none;
 }
 
-/*school, major, expected graduation... part*/
-section p strong{
-    letter-spacing: 0.025cm;
-    font-size: 12pt;
-    text-align: center;
-    
-}
-
 .logo{
     display: block;
     width: 25%;
@@ -60,6 +58,8 @@ section p strong{
 
 .hours{
   text-align: center;
+  letter-spacing: 0.025cm;
+  font-size: 12pt;
 }
 
 .menu{
