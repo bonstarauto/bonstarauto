@@ -113,8 +113,11 @@ img{
 
 div a{
   display: block;
-  max-width: 20px;
-  max-height: 20px;
+  width: 25%;
+  height: 25%;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 5px;
 }
 grid-item1 {
   display: flex;
