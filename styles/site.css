@@ -17,8 +17,8 @@ h1{
 }
 
 .header {
-  display: block;
   display: flex;
+  background-color: orange;
   justify-content: space-between;
   padding: 10px;
 }
