@@ -42,7 +42,7 @@ ul li{
 }
 
 /*school, major, expected graduation... part*/
-ul li strong{
+li strong{
     letter-spacing: 0.025cm;
     font-size: 12pt;
     text-align: center;
