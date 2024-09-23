@@ -27,14 +27,6 @@ h1{
   margin: 20px;
 }
 
-/*Student. Avid swimmer part*/
-.readable{
-    color: rgb(54, 130, 244);
-    font-size: 12pt;
-    font-style: normal;
-    word-spacing: 2px;
-}
-
 /* contact page list*/
 .listing{
   list-style: disc;
@@ -63,8 +55,7 @@ ul li{
 }
 
 .menu{
-  display: block;
-  display: in-flex;
+  display: flex;
   justify-content: space-between;
 }
 
