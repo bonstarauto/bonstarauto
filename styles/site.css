@@ -23,11 +23,11 @@ h4{
 }
 
 .header {
-  display: flex-grow;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 10px;
-  font-size: 14pt;
+  font-size: 12pt;
 }
 
 /* contact page list*/
