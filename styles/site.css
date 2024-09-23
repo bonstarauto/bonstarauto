@@ -43,10 +43,13 @@ ul li strong{
 }
 
 .menu{
-  display:flex;
-  align-content:center;
+  display: inline-flex;
+  justify-content:space-between;
 }
 
+.logo{
+  size: 30%;
+}
 menu{
   list-style: none;
   font-size:10pt;
