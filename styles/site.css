@@ -98,17 +98,6 @@ img{
   }
 
   /*new cars page*/
-  .newcars {
-    font-family: Arial, sans-serif;
-    margin: 15px;
-    padding: 10px;
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    background-color: #f0f0f0;
-}
 .grid-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr); /* 5 columns */
