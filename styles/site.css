@@ -103,13 +103,13 @@ img{
     gap: 10px;
     
 }
-.grid-item {
+/*.grid-item {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 70%;
   height:70%;
-}
+} */
 
 div a{
   display: block;
