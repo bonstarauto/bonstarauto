@@ -120,55 +120,47 @@ grid-item1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 70%;
-  height:70%;
+  padding: 10px;
 }
 grid-item2{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 70%;
-  height:70%;
+  padding: 10px;
 }
 grid-item3 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 70%;
-  height:70%;
+  padding: 10px;
 }
 grid-item4 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 70%;
-  height:70%;
+  padding: 10px;
 }
 grid-item5 {
   display: flex;
   flex-direction: row;
-  width: 70%;
-  height:70%;
   justify-content: space-between;
+  padding: 10px;
 }
 grid-item6{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 70%;
-  height:70%;
+  padding: 10px;
 }
 grid-item7 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-width: 70%;
-  max-height:70%;
+  padding: 10px;
 }
 .grid-item img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 70%;
-  height:70%;
+  padding: 10px;
 }
