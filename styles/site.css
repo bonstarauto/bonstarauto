@@ -116,7 +116,7 @@ img{
     gap: 10px;
     max-width: 50px;
     max-height: 50px;
-    /*overflow: auto*/
+    overflow: auto
 }
 .grid-item {
     border: 2px solid #ddd;
@@ -124,9 +124,9 @@ img{
     transition: transform 0.3s ease;
 }
 .grid-item img {
-    width: 50%;
-    height: 50%;
+    width: auto;
+    height: auto;
 }
 .grid-item:hover {
-    transform: scale(1.05); /* Scale image on hover */
+    transform: scale(1.05); 
 }
