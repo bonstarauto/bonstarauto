@@ -17,7 +17,7 @@ h1{
 }
 
 .header{
-  display: flex;
+  display: inline-flex;
   justify-content: space-between;
 }
 
@@ -42,10 +42,11 @@ ul li{
 }
 
 /*school, major, expected graduation... part*/
-p strong{
+section p strong{
     letter-spacing: 0.025cm;
     font-size: 12pt;
     text-align: center;
+    
 }
 
 .menu{
@@ -54,7 +55,7 @@ p strong{
 }
 
 .logo{
-  display: block;
+    display: block;
     width: 25%;
     height: 25%;
     margin-left:auto;
