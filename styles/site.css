@@ -103,9 +103,9 @@ img{
     grid-template-columns: repeat(5, 1fr); /* 5 columns */
     grid-auto-rows: 50px; /* Each row will be 200px tall */
     gap: 10px;
-    max-width: 50px;
-    max-height: 50px;
-    overflow: auto
+    max-width: auto;
+    max-height: auto;
+    overflow: auto;
 }
 .grid-item {
     border: 2px solid #ddd;
