@@ -97,7 +97,6 @@ img{
     padding: 10px;
   }
 
-
   /*new cars page*/
   .newcars {
     font-family: Arial, sans-serif;
@@ -108,24 +107,26 @@ img{
     align-items: center;
     height: 100vh;
     background-color: #f0f0f0;
-  }
-  .grid-container {
+}
+.grid-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr); /* 5 columns */
-    grid-template-rows: repeat(8, 1fr);   /* 8 rows */
+    grid-auto-rows: 200px; /* Each row will be 200px tall */
     gap: 10px;
-    max-width: 80%;
-  }
-  .grid-item {
+    max-width: 90vw; /* Limits grid width */
+    max-height: 90vh; /* Limits grid height */
+    overflow: auto; /* Allows scrolling if needed */
+}
+.grid-item {
     border: 2px solid #ddd;
     background-color: #fff;
     transition: transform 0.3s ease;
-  }
-  .grid-item img {
+}
+.grid-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
-  .grid-item:hover {
+}
+.grid-item:hover {
     transform: scale(1.05); /* Scale image on hover */
-  }
+}
