@@ -16,7 +16,7 @@ h1{
     text-transform: capitalize;
 }
 
-h4{
+.header{
   display: flex;
   justify-content: space-between;
 }
@@ -72,6 +72,7 @@ menu{
   color: black;
   font-weight: lighter;
   border-left: 2pt ridge rgb(54, 130, 244);
+  text-align:center;
 }
 
 
