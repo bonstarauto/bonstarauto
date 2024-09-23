@@ -17,6 +17,7 @@ h1{
 }
 
 .header {
+  display: block;
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -62,7 +63,8 @@ ul li{
 }
 
 .menu{
-  display: flex;
+  display: block;
+  display: in-flex;
   justify-content: space-between;
 }
 
