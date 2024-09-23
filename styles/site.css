@@ -48,8 +48,8 @@ ul li strong{
 }
 
 .logo{
-  height: 20%;
-  width: 20%;
+  height: 20px;
+  width: auto;
 }
 menu{
   list-style: none;
@@ -60,7 +60,7 @@ menu{
   width: max-content;
   color: black;
   font-weight: lighter;
-  border-left: 2pt ridge rgb(54, 130, 244);
+  border-right: 2pt ridge rgb(54, 130, 244);
 }
 
 /* Resize images*/
