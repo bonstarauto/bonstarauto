@@ -44,7 +44,11 @@ ul li strong{
 
 .menu{
   display: inline-flex;
-  justify-content:space-between;
+  justify-content:center;
+}
+
+.homepage{
+  text-align: center;
 }
 
 .logo{
@@ -61,7 +65,7 @@ menu{
   font-size:10pt;
   margin: 5px;
   padding: 10px;
-  line-height: 200%;
+  line-height: 175%;
   width: max-content;
   color: black;
   font-weight: lighter;
