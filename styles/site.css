@@ -42,8 +42,9 @@ ul li strong{
     font-size: 12pt;
 }
 
-/*Source: https://developer.mozilla.org/en-US/docs/Web/CSS/line-height */
-/*Source: https://developer.mozilla.org/en-US/docs/Web/CSS/border-left */
+.menu{
+  display:flex;
+}
 menu{
   list-style: none;
   font-size:10pt;
