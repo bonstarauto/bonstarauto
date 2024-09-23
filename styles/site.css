@@ -17,7 +17,8 @@ h1{
 }
 
 h4{
-  display: inline-flex;
+  display: flex;
+  justify-content: space-between;
 }
 
 /*Student. Avid swimmer part*/
@@ -48,7 +49,8 @@ ul li strong{
 }
 
 .menu{
-  display: inline-flex;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo{
