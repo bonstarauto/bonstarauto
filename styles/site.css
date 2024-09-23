@@ -19,12 +19,11 @@ h1{
 .header {
   display: flex;
   justify-content: space-between;
-  width: 100%;
   padding: 10px;
 }
 
 .header p {
-  margin: 0;
+  margin: 20px;
 }
 
 /*Student. Avid swimmer part*/
@@ -63,7 +62,7 @@ ul li{
 }
 
 .menu{
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
 }
 
