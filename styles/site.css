@@ -132,9 +132,10 @@ iframe {
   border: none;
 }
 
-/* Center the images side by side */
 .center {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;             
+  justify-content: center; /* Centers the images with equal space on both sides */
+  align-items: center;      /* Aligns items vertically centered */
+  gap: 20px;               /* Optional: adds space between images */
 }
