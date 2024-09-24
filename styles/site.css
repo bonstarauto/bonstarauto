@@ -5,11 +5,9 @@ html{
 }
 
 body{
-    width: auto;
-    max-width: 1500px;
+    display: border;
     margin: 0 auto;
     background-color: #f0f1f37c;
-    padding: 15px;
     background-color: orange;
 }
 
