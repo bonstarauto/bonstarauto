@@ -4,11 +4,12 @@ html{
     border-color: black;
 }
 
-body{
-    display: border;
-    margin: 0 auto;
-    background-color: #f0f1f37c;
-    background-color: orange;
+body {
+  background-color: #efece5;
+  color: #000000;
+
+  margin: 0 auto;
+  max-width: 1000px;
 }
 
 h1{
