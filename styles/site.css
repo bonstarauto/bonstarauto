@@ -125,6 +125,8 @@ img{
   justify-content: center; 
   align-items: center; 
   min-height: 100vh;
+  margin: 5px;
+  padding: 5px;
 }
 
 iframe {
@@ -136,5 +138,5 @@ iframe {
   flex-direction: row;
   justify-content: center; /* Centers the images with equal space on both sides */
   align-items: center;      /* Aligns items vertically centered */
-  gap: 10px;               /* Optional: adds space between images */
+  gap: 5px;               /* Optional: adds space between images */
 }
