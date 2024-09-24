@@ -5,16 +5,12 @@ html{
 }
 
 body{
-    max-width: 1200px;  /* Set the maximum width */
-    margin: 0 auto;      /* Center the body within the viewport */
-    padding: 0 20px;     /* Optional: Add some padding for breathing space */
-    box-sizing: border-box; /* In
     margin: 20px;
     padding:5px;
     max-width: 500px;
     margin: 500px;
     background-color: #f0f1f37c;
-    padding: 15px;*/
+    padding: 15px;
 }
 
 h1{
