@@ -133,10 +133,10 @@ iframe {
 
 /* Center the images side by side */
 .center {
-  display: flex;             /* Use Flexbox to place images side by side */
-  justify-content: center;   /* Center the images horizontally */
-  gap: 20px;                 /* Add space between the images (optional) */
-  align-items: center;       /* Align the images vertically (if different heights) */
+  display: flex;  
+  flex-direction: row;
+  justify-content: center;  
+  gap: 20px;               
 }
 
 .resizeImage img {
