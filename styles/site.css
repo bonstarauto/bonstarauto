@@ -10,6 +10,7 @@ body{
     max-width: 500px;
     margin: 500px;
     background-color: #f0f1f37c;
+    padding: 15px;
 }
 
 h1{
@@ -133,13 +134,7 @@ iframe {
 
 /* Center the images side by side */
 .center {
-  display: flex;  
+  display: flex;
   flex-direction: row;
-  justify-content: center;  
-  gap: 20px;               
-}
-
-.resizeImage img {
-  max-width: 100%;           /* Ensure the images are responsive */
-  height: auto;              /* Keep the aspect ratio */
+  justify-content: space-between;             
 }
