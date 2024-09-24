@@ -4,12 +4,12 @@ html{
     border-color: black;
 }
 
-body {
-  background-color: #efece5;
-  color: #000000;
-
-  margin: 0 auto;
-  max-width: 1000px;
+body{
+    display: border;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right:auto;
+    background-color: #f0f1f37c;
 }
 
 h1{
@@ -136,5 +136,5 @@ iframe {
   flex-direction: row;
   justify-content: center; /* Centers the images with equal space on both sides */
   align-items: center;      /* Aligns items vertically centered */
-  gap: 20px;               /* Optional: adds space between images */
+  gap: 10px;               /* Optional: adds space between images */
 }
