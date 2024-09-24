@@ -125,12 +125,15 @@ img{
   justify-content: center; 
   align-items: center; 
   min-height: 100vh;
-  margin: 5px;
-  padding: 5px;
 }
 
 iframe {
   border: none;
+  width: 100%;              /* Make the iframe take full width of its container */
+  max-width: 500px;        /* Set a maximum width */
+  height: 700px;  
+  margin: 5px;
+  padding: 5px;         /* Set a fixed height */
 }
 
 .center {
