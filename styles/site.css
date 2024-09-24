@@ -132,7 +132,7 @@ iframe {
   border: none;
   width: 100%;              /* Make the iframe take full width of its container */
   max-width: 500px;        /* Set a maximum width */
-  height:max-content;  
+  height:fit-content;  
   margin: 15px;
   padding: 15px;         /* Set a fixed height */
 }
