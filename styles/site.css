@@ -116,7 +116,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center; /* Centers content inside each item */
-    border: 1px solid #aaa;
+    border: 1px solid #ecc6c6;
     font-size: 14px;
 }
 
@@ -130,8 +130,16 @@ img{
 iframe {
   border: none;
 }
-.center{
-  display: flex;
-  justify-content: space-between;
-  gap: 10px; 
+
+/* Center the images side by side */
+.center {
+  display: flex;             /* Use Flexbox to place images side by side */
+  justify-content: center;   /* Center the images horizontally */
+  gap: 20px;                 /* Add space between the images (optional) */
+  align-items: center;       /* Align the images vertically (if different heights) */
+}
+
+.resizeImage img {
+  max-width: 100%;           /* Ensure the images are responsive */
+  height: auto;              /* Keep the aspect ratio */
 }
