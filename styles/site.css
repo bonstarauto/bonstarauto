@@ -101,13 +101,13 @@ img{
 .outer-container {
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Space between rows */
+    gap: 8px; /* Space between rows */
 }
 
 .row {
     display: flex;
     justify-content: space-between; /* Distributes items evenly */
-    gap: 10px; /* Space between items */
+    gap: 8px; /* Space between items */
 }
 
 .item {
